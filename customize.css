@@ -1,0 +1,299 @@
+.container-fluid{
+	padding: 0;
+}
+
+.jumbotron_wrapper{
+	/*background: url(images/startup-0.svg);*/
+	background: url(images/startup-1.jpg);
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	position: static;
+}
+ img{
+	width: 100%;
+}
+.slider_image{
+	position: relative;
+}
+/*.slider_caption{
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+.slider_caption{
+	
+	background: transparent;
+	/*margin-top: 15%;*/
+	position: absolute;
+	top: 32%;
+	left: 0;
+	
+}
+.slider_caption h1{
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 42px;
+}
+.slider_caption p{
+	font-weight: normal;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #B8CEDF;
+	margin-top: 10px;
+	letter-spacing: 0.5px;
+}
+.cap_button{
+	width: 200px;
+	background: #2595FF;
+	margin-top: 10px;
+}
+.cap_button:hover{
+	background: #007CF1;
+}
+.navbar-default{
+	background: transparent;
+	height: 100px;
+	border:none;
+	margin-top: 25px;
+	letter-spacing: .05em;
+}
+.navbar-brand{
+	height: 80px;
+	padding: 0;
+	/*padding-top: 15px;*/
+}
+.menu{
+	margin-top: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: lightgrey;
+    
+}
+.white_space{
+	height: 100px;
+}
+.time_data_content{
+	margin-top: 50%;
+}
+.time_data_content h2{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.time_data_content p{
+	color: #696969;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 24px;
+	margin-bottom: 0;
+	margin-top: 10px;
+
+}
+.time_data_content strong{
+	color: black;
+	margin-top: 20px;
+}
+.time_data_content span{
+	color: #696969;
+}
+
+.natural_language{
+	background: #262F36;
+	margin-top: -1px;
+}
+.content{
+	margin-top: 45%;
+}
+.content span{
+	color: #D3D3D3;
+	font-size: 16px;
+}
+.content h2{
+	margin-top: 0;
+	color: white;
+	font-weight: bolder;
+	font-size: 30px;
+}
+.content p{
+	color: #D3D3D3;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.content button{
+	width: 200px;
+}
+.code{
+	border: #495158 1px solid;
+	/*padding: 20px;*/
+	box-sizing: border-box;
+	margin-top: 20%;
+	margin-bottom: 20%;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.coding {
+    color: #6EA4CF;
+    border: none;
+    background: transparent;
+    font-size: 12px;
+    /*padding: 20px;*/
+    line-height: 1.55;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.coding span {
+    color: #8496A5;
+}
+.high_praise_wrapper{
+	background: url(images/startup-3.jpg);
+	background-size:cover;
+	/*background-size: cover;*/
+	background-position: 0px -250px;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.high_praise{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.high_praise span{
+	color: #D1DCE1;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+	
+}
+.high_praise h2{
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 28px;
+	letter-spacing: 1px;
+}
+.high_praise p{
+	color: lightgrey;
+	font-size: 14px;
+
+}
+@media only screen and (max-width: 1200px){
+	.high_praise_wrapper{
+		background-position: 0px 0px;
+	}	
+}
+@media only screen and (max-width: 991px){
+	.high_praise_wrapper{
+		background-position: -90px 0px;
+	}	
+}
+@media only screen and (max-width: 767px){
+	.high_praise_wrapper{
+		background-position: -190px 0px;
+	}	
+}
+@media only screen and (max-width: 420px){
+	.high_praise_wrapper{
+		background-position: -250px 0px;
+	}	
+}
+.partner_wrapper{
+	margin-bottom: 60px;
+	margin-top: 60px;
+	/*background: #2595FF;*/
+
+}
+/*.partner_logo{
+	height: 45px;
+}*/
+.partner_logo img{
+	height: 45px;
+	width: auto;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.service{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.service img{
+	height: 200px;
+	width: 200px;
+	margin:0 auto;
+
+}
+.service_text h5, .business_plan h5{
+	font-weight: bold;
+	color: lightgrey;
+}
+.service_text h3, .business_plan h3{
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+.service1, .service2{
+	/*margin-bottom: 20px;*/
+	margin-top: 70px;
+}
+.business_plan{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.bp_heading{
+	margin-bottom: 60px;
+}
+.bp_content{
+
+}
+.bp_steps p{
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: lightgrey 1px solid;	
+}
+.bp_steps img{
+	height: 60px;
+	margin: 0 auto;
+}
+.bp_steps button{
+	margin-top: 30px;
+	width: 100%;
+}
+.thumbnail{
+	border: none;
+}
+
+.footer_wrapper{
+	background: #262F36;
+}
+.footer{
+	margin: 100px auto;
+}
+.footer h4{
+	margin-bottom: 20px;
+	margin-top: 30px;
+	color: white;
+	letter-spacing: 1px;
+
+}
+.footer p{
+	color: #A9A9A9;
+	letter-spacing: 0.5px;
+}
+.footer a{
+	color: lightgrey;
+}
